@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Edu+NSW+ACT+Foundation&family=Roboto+Mono:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Poppins:wght@600;600;600;800&family=Work+Sans:wght@400;500&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -22,7 +23,19 @@
 	left: 20px;
 }
 
+/* button */
+.btn-line{
+	border: 2px solid orange;
+	display: inline-block;
+	border-radius: 8px;
+	
+}
 
+.navbar li{
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 25px;
+}
 .main{
 
     display: flex;
@@ -32,16 +45,23 @@
 .nav-item{
 font-weight: 600;
 margin-top: 10px;
+font-size: 22px;
 }
+
 
 
 .nav-link:hover{
-	background-color:var(--special);
-	text-decoration: none;
-	border-radius: 0px 50px 50px 0px;
-    font-size: 20px;
+	
+	text-decoration: underline 2px solid orange;
+	
+	background-color: orange;
+	border-radius: 0px 25px 0px 25px;
+
+	color: white;
+    
 	
 }
+
 .logo{
 	position: relative;
 	left: 55px;
@@ -101,39 +121,7 @@ margin-top: 10px;
 	}
 }
 
-@media(max-width:1113px) {
-    .main{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 112px;
-    }
-    .fa-envelope{
-        margin: 10px 0px;
-    }
-    .navbar{
-        flex-direction: column;
-        position: fixed;
-        top: 70px;
-        padding-bottom: 100px;
-    }
-	.logo{
-		position:inherit;
-		margin-bottom: 20px;
-	}
-	.menu{
-		position: inherit;
 
-	}
-}
-
-/* about section */
-
-@media (max-width:1000){
-	.who-img{
-		height: 110px;
-	}
-}
 
 /* Footer  */
 .page-footer{
@@ -164,3 +152,11 @@ margin-top: 10px;
 .decoration:hover{
  text-decoration: underline;
 }
+
+
+
+
+
+
+
+
