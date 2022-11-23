@@ -18,78 +18,64 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+	<!-- menu -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   
 </head>
 
 <body>
-	<header class="main fixed-top py-3 fs-5 bg-secondary">
-		<div>
-			<i class="fa-brands fa-whatsapp text-info"></i> <span class="text-light mobile">+91 9925566914</span> | <i
-				class="fa fa-phone text-info fs-6"></i> <span class="text-light mobile">+91 8758503231</span>
-		</div>
-		<div class="gmail">
-			<i class="fa-solid fa-envelope text-info"></i> <span
-				class="text-light gmail">indian.scientific2019@gmail.com</span> | <span
-				class="text-light gmail">indian.scientific2004@gmail.com</span>
-		</div>
-		<div>
-			<!-- youtube -->
-			<a class="mx-3">
-				<i class="fab fa-youtube text-info"></i>
-			</a>
-			<!--Instagram-->
-			<a class="mx-3">
-				<i class="fab fa-instagram text-info"> </i>
-			</a>
-			<!-- Facebook -->
-			<a class="mx-3">
-				<i class="fab fa-facebook-f white-text mr-md-5  text-info"> </i>
-			</a>
-	</header>
-	<nav class="navbar fixed mt-5">
-		<div class="container-fluid">
-			<img src="./Indian Scientific.jpg" width="160px" height="130px" class="logo">
 
-			<button class="navbar-toggler menu " type="button" data-bs-toggle="offcanvas"
-				data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border:3px solid orange">
-				<span class="navbar-toggler-icon fs-6 "></span><span class="fs-6" style="font-weight:500 ;">MENU</span>
-			</button>
-			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-				aria-labelledby="offcanvasNavbarLabel">
-				<div class="offcanvas-header justify-content-end">
-					<!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
-					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-				</div>
-				<div class="offcanvas-body">
-					<img src="./menu logo.jpeg" width="250px" height="80px" class="mt-4">
-					<ul class="navbar-nav justify-content-end flex-grow-1 mx-3 fs-5 my-3">
-						<li class="nav-item">
-							<a class="nav-link " aria-current="page" href="index.html">HOME</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " aria-current="page" href="about_us.html">ABOUT US</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " aria-current="page" href="services.html">SERVICES</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="">CERTIFICATES</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact_us.html">CONTACT US</a>
-						</li>
-						</li>
-					</ul>
+	
+<!-- bootstrap navbar -->
 
-				</div>
-			</div>
+<section class="mb-5">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		
+		<div class="mx-5">
+		<img src="./photo/logo w.jpg" width="268px">
 		</div>
-	</nav>
-	<section class="container-fluid my-5 bg-success text-center">
-		<h3 class="py-2 " style="color:orange ;">CONTACT US</h3>
-	</section>
+		<div class="container justify-content-end">
+		<button class="navbar-toggler fs-6" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon " ></span>
+		</button>
+		</div>
+		<div class="collapse navbar-collapse mx-5" id="navbarNav">
+		  <ul class="navbar-nav mx-5">
+			<li class="nav-item nav-hover">
+				<a class="nav-link " aria-current="page" href="index.html">HOME</a>
+			</li>
+			<li class="nav-item nav-hover">
+				<a class="nav-link d-flex"  href="about_us.html">ABOUT <span class="px-2"> US</span></a>
+			</li>
+			<li class="nav-item nav-hover">
+				<a class="nav-link " aria-current="page" href="services.html">SERVICES</a>
+			</li>
+			<li class="nav-item ">
+				<a class="nav-link nav-hover" href="portfolio.html">PORTFOLIO</a>
+			</li>
+			<li class="nav-item ">
+				<a class="nav-link d-flex" href="contact_us.html">CONTACT <span class="px-2">US</span></a>
+			</li>
+			</li>
+			
+		  </ul>
+		</div>
+		</div>
+	  </nav>
+	<br><br><br> <br>
+	
+	  <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white" style="
+	  background-image: url('./photo/contact\ bg.jpg'); background-position: center ;background-size: cover;
+	  height:28vh; opacity: .8;">
+	
+		  <h1 class="text-white text-uppercase" data-aos="fade-left">Contact Us</h1>
+		  <p class=" mb-5 ">Home / <span class="text-danger fw-bold">Contact us</span></p>
+	  </div>
 
 	<!--   ==== Whatsaap Icon === -->
-	<a href="http://wa.me/+919925566914" target="_blank"><img src="./whatsapp.png"
+	<a href="http://wa.me/+918758503231" target="_blank"><img src="./photo/social media/whatsapp.png"
 			class=" mx-auto  mb-5 whatsapp-fixed" data-toggle="tooltip" data-placement="right"
 			title="Need Help? Let's Chat"></a>
 	<!--=== details            add ===-->
@@ -98,24 +84,24 @@
 		<div class="row">
 			<div class="col-md text-center shado mt-3" data-aos="zoom-in">
 				<!-- <i class="fa fa-location-dot fa-2xl pb-4 text-danger "></i> -->
-				<img src="./google-maps.png" alt="mymap" class=" mx-auto social-img mb-3">
+				<img src="./photo/social media/google-maps.png" alt="mymap" class=" mx-auto social-img mb-3">
 				<p>
 					332, 3rd Floor, Opera Business Hub, lajamni Chowk, Mota Varachha, Surat-394101
 				</p>
 			</div>
 			<div class="col-md text-center mx-2 shado mt-3" data-aos="zoom-in">
 				<!-- <i class="fa fa-mobile fa-2xl pb-4 mt-4 text-info"></i> -->
-				<img src="./telephone-call.png" class="mx-auto social-img mb-3">
+				<img src="./photo/social media/telephone-call.png" class="mx-auto social-img mb-3">
 				<!-- <p class="fw-bold h5">Mobile No</p> -->
 
 
-				<p>+91 8758503231 </p>
-				<p>+91 9925566914 </p>
+				<p><span>Vikas Chavda :-</span> +91 8758503231 </p>
+				<p><span>Nikunj Savaliya :-</span> +91 9925566914 </p>
 
 			</div>
 			<div class="col-md text-center shado mt-3" data-aos="zoom-in">
 
-				<img src="./mail.png" alt="mymail" class=" mx-auto social-img mb-3">
+				<img src="./photo/social media/mail.png" alt="mymail" class=" mx-auto social-img mb-3">
 				<p>indian.scientific2019@gmail.com</p>
 				<p>indian.scientific2004@gmail.com</p>
 
@@ -123,41 +109,40 @@
 		</div>
 	</div>
 	<!--  form contact -->
-	<form class="text-center border border-light p-5 col-7 container" action="mailto:rs617755@gmail.com" method="post"
-		enctype="text/plain">
+	<form class="text-center border border-light p-5 col-7 container" action="https://formspree.io/f/mvoynggv"
+	method="POST">
 		<!-- <div class="container col-6"></div> -->
 
 		<p class="h5 mb-4 fw-bold text-uppercase">Contact us</p>
 
 		<!-- Name -->
-		<input type="text" id="name" name="name" class="form-control mb-4" placeholder="Name">
+		<input type="text" id="name" name="name" class="form-control mb-4" placeholder="Name" autocomplete="off" required/>
 
 		<!-- Email -->
-		<input type="email" id="email" name="email" class="form-control mb-4" placeholder="E-mail">
+		<input type="email" id="email" name="email" class="form-control mb-4" placeholder="E-mail" autocomplete="off" required>
 
 		<!-- Mobile -->
-		<input type="text" id="mobile" name="mobile" class="form-control mb-4" placeholder="Mobile No">
+		<input type="text" id="mobile" name="mobile" class="form-control mb-4" placeholder="Mobile No" autocomplete="off" required>
 		<!-- Company name -->
-		<input type="text" id="company name" name="company" class="form-control mb-4" placeholder="Company Name">
+		<input type="text" id="company name" name="company" class="form-control mb-4" placeholder="Company Name" autocomplete="off" required/>
 
 		<!-- City -->
-		<input type="text" id="city" name="city" class="form-control mb-4" placeholder="City">
+		<input type="text" id="city" name="city" class="form-control mb-4" placeholder="City" autocomplete="off" required/>
 		<!-- Requirement -->
-		<div class="form-group">
+		<div class="form-group mb-4">
 			<textarea class="form-control rounded-0" name="requirement" id="Textarea2" rows="3"
-				placeholder="Requirement"></textarea>
+				placeholder="Requirement" autocomplete="off" required></textarea>
 		</div>
 
-		<!-- Copy -->
-		<div class="custom-control custom-checkbox mb-4">
-			<input type="checkbox" class="custom-control-input" id="ContactFormCopy">
-			<label class="custom-control-label" for="ContactFormCopy">Send me a copy of this message</label>
-		</div>
+	
 
 		<!-- Send button -->
-		<input type="submit" class="btn btn-outline-info transition" type="submit">
+		<input type="submit" class="btn btn-outline-danger transition" type="submit">
 
 	</form>
+
+
+
 
 	<iframe
 		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.844020440689!2d72.88663961441087!3d21.238032985978037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fa0b44e199f%3A0xb2b2adaf3c125594!2sOpera%20business%20hub!5e0!3m2!1sen!2sin!4v1668190440989!5m2!1sen!2sin"
@@ -232,7 +217,7 @@
 											 
 											 </div>
 											 <div class="mt-4">
-											 <img src="./trustseal.png " width="111px">
+											 <img src="./photo/social media/trustseal.png " width="111px">
 											 </div>
 										 </div>
 
