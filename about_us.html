@@ -15,81 +15,65 @@
 		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!--    === AOS animation CDN=== -->
-	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
-	<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-	<!-- this page not used aos link why i am used link then page not propare show -->
+	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+	<!-- this page not used aos link why i am used link then page not propare show
+
+<-- menu -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-	<header class="main fixed-top py-3 fs-5 bg-secondary">
-		<div>
-			<i class="fa-brands fa-whatsapp text-info"></i> <span class="text-light mobile">+91 9925566914</span> | <i
-				class="fa fa-phone text-info fs-6"></i> <span class="text-light mobile">+91 8758503231</span>
-		</div>
-		<div class="gmail">
-			<i class="fa-solid fa-envelope text-info"></i> <span
-				class="text-light gmail">indian.scientific2019@gmail.com</span> | <span
-				class="text-light gmail">indian.scientific2004@gmail.com</span>
-		</div>
-		<div>
-			<!-- youtube -->
-			<a class="mx-3">
-				<i class="fab fa-youtube text-info"></i>
-			</a>
-			<!--Instagram-->
-			<a class="mx-3">
-				<i class="fab fa-instagram text-info"> </i>
-			</a>
-			<!-- Facebook -->
-			<a class="mx-3">
-				<i class="fab fa-facebook-f white-text mr-md-5  text-info"> </i>
-			</a>
-	</header>
-	<nav class="navbar fixed mt-5">
-		<div class="container-fluid">
-			<img src="./Indian Scientific.jpg " width="160px" height="130px" class="logo">
 
-			<button class="navbar-toggler menu" type="button" data-bs-toggle="offcanvas"
-				data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border:3px solid orange">
-				<span class="navbar-toggler-icon fs-6 "></span><span class="fs-6" style="font-weight:500 ;">MENU</span>
-			</button>
-			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-				aria-labelledby="offcanvasNavbarLabel">
-				<div class="offcanvas-header justify-content-end">
-					<!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
-					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-				</div>
-				<div class="offcanvas-body">
-					<img src="./photo/menu logo.jpeg" width="250px" height="80px" class="mt-4">
-					<ul class="navbar-nav justify-content-end flex-grow-1 mx-3 fs-5 my-3">
-						<li class="nav-item">
-							<a class="nav-link " aria-current="page" href="index.html">HOME</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " aria-current="page" href="about_us.html">ABOUT US</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " aria-current="page" href="services.html">SERVICES</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="">CERTIFICATES</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact_us.html">CONTACT US</a>
-						</li>
-						</li>
-					</ul>
+<!-- bootstrap navbar -->
 
-				</div>
-			</div>
+<section class="mb-5">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		
+		<div class="mx-5">
+		<img src="./photo/logo w.jpg" width="258px">
 		</div>
-	</nav>
-
-	<section class="container-fluid my-5 bg-success text-center">
-		<h3 class="py-2 " style="color:orange ;">ABOUT COMPANY</h3>
-	</section>
+		<div class="container justify-content-end">
+		<button class="navbar-toggler fs-6" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon " ></span>
+		</button>
+		</div>
+		<div class="collapse navbar-collapse mx-5" id="navbarNav">
+		  <ul class="navbar-nav mx-5">
+			<li class="nav-item nav-hover">
+				<a class="nav-link " aria-current="page" href="index.html">HOME</a>
+			</li>
+			<li class="nav-item nav-hover">
+				<a class="nav-link d-flex"  href="about_us.html">ABOUT <span class="px-2"> US</span></a>
+			</li>
+			<li class="nav-item nav-hover">
+				<a class="nav-link " aria-current="page" href="services.html">SERVICES</a>
+			</li>
+			<li class="nav-item ">
+				<a class="nav-link nav-hover" href="portfolio.html">PORTFOLIO</a>
+			</li>
+			<li class="nav-item ">
+				<a class="nav-link d-flex" href="contact_us.html">CONTACT <span class="px-2">US</span></a>
+			</li>
+			</li>
+			
+		  </ul>
+		</div>
+		</div>
+	  </nav>
+	<br><br><br> <br>
+	
+	  <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white" style="
+	  background-image: url('./photo/about-bg.jpg'); background-position: center ;background-size: cover;
+	  height:28vh; opacity: .8;">
+	
+		  <h1 class="text-white text-uppercase" data-aos="fade-left">ABOUT COMPANY</h1>
+		  <p class=" mb-5 ">Home / <span class="text-danger fw-bold">About us</span></p>
+	  </div>
 	<!-- Whatsaap icon -->
-<a href="http://wa.me/+919925566914" target="_blank"><img src="./whatsapp.png"
+<a href="http://wa.me/+918758503231" target="_blank"><img src="./photo/social media/whatsapp.png"
 	class=" mx-auto whatsapp-img pdf-icon mb-5 whatsapp-fixed " style="width:70px ;" data-toggle="tooltip" data-placement="right"
 	title="Need Help? Let's Chat"></a>
 	<div class="container my-5 border ">
@@ -99,7 +83,7 @@
 				<div>
 
 				</div>
-				<p style="text-align: justify;">‘INDIAN SCIENTIFIC’ is the world’s most leading consulting firm, a
+				<p style="text-align: justify; " class="fs-5">‘INDIAN SCIENTIFIC’ is the world’s most leading consulting firm, a
 					reliable service provider occupied in offering PRODUCT TESTING LABORATORY & ISI /BIS CERTIFICATION,
 					FOOD TESTING LABORATORY & FOOD LICENSE CERTIFICATION, TRAINING, REGULATORY COMPLIANCES, INDIAN
 					STANDARD ASSESSMENT like ISI Certification Services, Foreign Manufacturer Certification, NABL
@@ -108,7 +92,7 @@
 					SCIENTIFIC'' The offered range of service is rendered in obedience with the quality constraints by
 					our competent experts who hold a rich understanding of the particular fields.
 				</p>
-				<p style="text-align: justify;">''INDIAN SCIENTIFIC'' Group was originated in the year 2004 and established in the year 2013.
+				<p style="text-align: justify;" class="fs-5">''INDIAN SCIENTIFIC'' Group was originated in the year 2004 and established in the year 2013.
 					Initially, the first subsidiary INDIAN SCIENTIFIC of the group was selected for product
 					certification for the domestic manufacturers, and the ranges of certification were only three - BIS,
 					& ISI .</p>
@@ -119,8 +103,8 @@
 			<div class="col-sm-12 col-lg-6 col-md-12 border justify-content-center card" data-aos="fade-left">
 				<!-- Background image -->
 				<div class="bg-image shado " style="
-background-image: url('./company.jpg'); background-position: center; background-size: cover;
-height: 55vh; border-radius: 20px;
+background-image: url('./photo/brand/about\ company.jpg'); background-position: center; background-size: cover;
+height: 65vh; border-radius: 20px;
 "></div>
 				<!-- Background image -->
 			</div>
@@ -130,7 +114,7 @@ height: 55vh; border-radius: 20px;
 	<section class="container my-5">
 		<div class="row">
 			<h1 class=" text-center my-5">Who We <span class="indian-2">Are</span></h1>
-			<div class="col-sm-5  text-center who-img"> <img src="./who.webp" alt="my vision"
+			<div class="col-sm-5  text-center who-img"> <img src="./photo/who.webp" alt="my vision"
 					class="img-thumbnail icon-zoom" style="width:58% ;"></div>
 			<div class="col-sm-7 text-align">
 				<p style="text-align:justify;" class="fs-5  my-2">We ‘INDIAN SCIENTIFIC’ have placed ourselves amongst the assured names in
@@ -147,30 +131,28 @@ height: 55vh; border-radius: 20px;
 		<h1 class="my-5"> <span class=" m-2 indian-2">OUR</span> SERVICES</h1>
 		<div class="row">
 			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand icon-zoom" >
-				<img src="./ISO_9001-2015_w.jpg" class="img-fluid" alt="Responsive image">
+				<img src="./photo/brand/Isi_mark logo.gif" class="img-fluid " alt="Responsive image">
 			</div>
+			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand icon-zoom">
+				<img src="./photo/brand/FMCS.webp" class="img-fluid" alt="Responsive image">
+			</div>
+		
 
 			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand icon-zoom">
-				<img src="./FSSAI Logo.jpg" class="img-fluid" alt="Responsive image">
+				<img src="./photo/brand/FSSAI Logo.jpg" class="img-fluid" alt="Responsive image">
 			</div>
+			
 			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand icon-zoom">
-				<img src="./FMCS.webp" class="img-fluid" alt="Responsive image">
+				<img src="./photo/brand/cdcc.jpg" class="img-fluid" alt="Responsive image">
 			</div>
+			
 			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand icon-zoom">
-				<img src="./cdcc.jpg" class="img-fluid" alt="Responsive image">
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand icon-zoom">
-				<img src="./GPCB LOGO.jpg" class="img-fluid" alt="Responsive image">
+				<img src="./photo/brand/Agmark.png" class="img-fluid" alt="Responsive image">
 			</div>
 
 			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand icon-zoom" >
-				<img src="./Isi_mark logo.gif" class="img-fluid " alt="Responsive image">
+				<img src="./photo/brand/ISO_9001-2015_w.jpg" class="img-fluid" alt="Responsive image">
 			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand icon-zoom">
-				<img src="./Agmark.png" class="img-fluid" alt="Responsive image">
-			</div>
-
-
 
 		</div>
 		<p class="mt-5" data-aos="fade-left"> And Many more...</p>
@@ -180,35 +162,33 @@ height: 55vh; border-radius: 20px;
 			<div class>
 				<table class="table table-striped ">
 					<thead>
-						<tr class="text-center table-primary fs-4">
+						<tr class="text-center table-danger fs-4">
 
 							<th scope="col ">LICENSE AND CERTIFICATION</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr class="text-center">
+						<tr class="text-center fs-4">
 
 							<td>BIS (ISI Mark) For Foreign Manufacturers</td>
 						</tr>
-						<tr class="text-center">
+						<tr class="text-center fs-4">
 
 							<td>Domestic Product Certification (ISI Mark)</td>
 
 						</tr>
-						<tr class="text-center">
+						<tr class="text-center fs-4">
 
 							<td>AG-Mark Licence </td>
 
 						</tr>
-						<tr class="text-center">
+						<tr class="text-center fs-4">
 
 							<td>FOOD LICENSE CERTIFICATION</td>
 
 						</tr>
-						<tr class="text-center">
-							<td>GPCB NOC WORKS 6</td>
-						</tr>
-						<tr class="text-center">
+					
+						<tr class="text-center fs-4">
 							<td>CGWA NOC</td>
 						</tr>
 
@@ -219,7 +199,7 @@ height: 55vh; border-radius: 20px;
 	</div>
 	<div class="container border my-3 text-center">
 		<h1 class="my-3"> Our <span class=" m-2 indian-2">Team</span> </h1>
-		<p style="text-align: justify;">Our team of engineers excel in all technical fields such as Civil, Mechanical, Electrical, Electronics and Chemical etc. Our team also ensures that the procedure and processes implemented in the production are in accordance with the requirements of standards formulated by the Bureau of Indian Standards (BIS). The discrepancies are addressed promptly, and training is provided at all levels and processes to ensure compliance with Indian Standards (IS). The comprehensive details regarding the technical standards & procedures are prepared to ensure the right execution of government guidelines.</p>
+		<p style="text-align: justify;"class="fs-4">Our team of engineers excel in all technical fields such as Civil, Mechanical, Electrical, Electronics and Chemical etc. Our team also ensures that the procedure and processes implemented in the production are in accordance with the requirements of standards formulated by the Bureau of Indian Standards (BIS). The discrepancies are addressed promptly, and training is provided at all levels and processes to ensure compliance with Indian Standards (IS). The comprehensive details regarding the technical standards & procedures are prepared to ensure the right execution of government guidelines.</p>
 	</div>
 
 	<!-- Footer -->
@@ -291,7 +271,7 @@ height: 55vh; border-radius: 20px;
 
 					</div>
 					<div class="mt-4">
-						<img src="./trustseal.png " width="111px">
+						<img src="./photo/social media/trustseal.png " width="111px">
 					</div>
 				</div>
 
