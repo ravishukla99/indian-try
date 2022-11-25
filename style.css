@@ -155,6 +155,31 @@ font-size: 22px;
 
 
 
+@media (min-width:1250px){
+	.res-logo img{
+
+		width: 605px;
+		height: 100px;
+		justify-content: center;
+	}
+}
+
+@media (max-width:650px){
+	.res-logo img{
+
+		width: 555px;
+		height: 105px;
+		justify-content: center;
+	}
+}
+@media (max-width:510px){
+	.res-logo img{
+
+		width: 255px;
+		height: 105px;
+		justify-content: center;
+	}
+}
 
 
 
